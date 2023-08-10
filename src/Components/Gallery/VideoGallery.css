@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.videoSec{
+    background-color: #016354;
+    color: #FDE3BE;
+}
+.main-heading{
+    text-align: center;
+    margin: 40px auto;
+}
+.videoGallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    justify-content: space-around;
+    padding: 10px 50px;
+}
+.videoCard{
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin: 40px;
+    padding: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+
+.videoDetails{
+    padding: 10px;
+}
+
+.videoTitle{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 80%;
+    text-align: center;
+}
+
+.videoDescp{
+    font-size: 14px;
+}
+
+.videoCategory{
+    display: inline-block;
+    font-size: 10px;
+    color: #000000;
+    padding: 8px 12px;
+    width: auto;
+    border-radius: 5px;
+    background-color: #F8AE45;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.videoImg{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.buttonTab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.buttonTab button{
+    padding: 10px;
+    background-color: #F8AE45;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: 0.6s;
+}
+
+.buttonTab button:hover{
+    background-color:#87c68a;
+}

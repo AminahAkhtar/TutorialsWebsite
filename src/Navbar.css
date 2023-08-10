@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #FDE3BE;
+    color: #016354;
+    
+}
+
+.logo{
+    position: absolute;
+    right: 100px;
+}
+#navbarlink{
+    color: #016354;
+}
